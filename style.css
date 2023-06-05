@@ -1,0 +1,12 @@
+body{
+    background-color: #000000;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1, button{
+    color: #ffffff;
+}
+
+p{
+    color: #808080;
+}

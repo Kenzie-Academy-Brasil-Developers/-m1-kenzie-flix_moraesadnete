@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KENZIEFLIX</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,25 +14,36 @@
         <h1>Quem está assistindo?</h1>
     </header>
     <main>
-        <div>
-            <img src="./img/pink.png" alt="ícone de boneca com cabelo rosa sorrindo">
-            <p>Aline</p>
-        </div>
-
-        <div>
-            <img src="./img/panda.png" alt="ícone de panda">
-            <p>Pedrinho</p>
-        </div>
-
-        <div>
-            <img src="./img/robot.png" alt="ícone de robô verde com amarelo">
-            <p>Júlia</p>
-        </div>
-
-        <div>
-            <img src="./img/plus.png" alt="opção de adicionar um perfil">
-            <p>Adicionar perfil</p>
-        </div>
+    
+        <section id="icones-usuarios">
+            <div>
+                <figure>
+                    <img src="./img/pink.png" alt="ícone de boneca com cabelo rosa sorrindo" >
+                    <figcaption>Aline</figcaption>
+                </figure>
+            </div>
+    
+            <div>
+                <figure>
+                    <img src="./img/panda.png" alt="ícone de panda">
+                    <figcaption>Pedrinho</figcaption>
+                </figure>
+            </div>
+    
+            <div class="icone">
+                <figure>
+                    <img src="./img/robot.png" alt="ícone de robô verde com amarelo">
+                    <figcaption>Júlia</figcaption>
+                </figure>
+            </div>
+    
+            <div >
+                <figure>
+                    <img src="./img/plus.png" alt="opção de adicionar um perfil">
+                    <figcaption>Adicionar perfil</figcaption>
+                </figure>
+            </div>
+        </section>
     </main>
     <footer>
         <button>Gerenciar Perfis</button>

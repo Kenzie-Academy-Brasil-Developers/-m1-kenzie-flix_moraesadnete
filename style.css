@@ -8,11 +8,13 @@ body{
     background-color: #000000;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     
-    height: 110vh;
+    height: 100vh;
+    width: 100vw;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 main{
@@ -32,18 +34,20 @@ h1, button{
     color: #ffffff;
 }
 
-header img{
-}
 
 h1{
     font-weight: 700;
     font-size: xx-large;
     padding-bottom: 60px;
-    margin: 20px 5px 50px;
+    margin: 30px 0px 50px;
 }
 
 header, footer{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }
 
 #icones-usuarios{
@@ -51,13 +55,11 @@ header, footer{
     flex-direction:row;
     align-items: center;
     justify-content: space-evenly;
-    padding-left: 300px ;
 }
 
 figure {
     display: flex;
     flex-direction: column;
-    list-style: none;
     text-align: center;
 
     margin: 0px 10px;
@@ -74,13 +76,15 @@ figcaption{
     font-size: larger;
 }
 
-div{
+ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    margin: 0px 10px 0px 60px;
+    margin: 0px 10px 0px 0px;
+
+    list-style: none;
 }
 
 footer{
@@ -89,22 +93,22 @@ footer{
 
 button{
     background-color: #000000;
-    border: 1px solid whitesmoke;
+    border: 1px solid white;
     border-radius: 6%;
     font-size: large;
     padding: 10px 20px 10px;
 }
 
 button:hover{
-    background-color: whitesmoke;
+    background-color: white;
     color: #000000;
 }
 
 .imagem:hover{
-    border: 1px solid whitesmoke;
+    border: 1px solid white;
 }
 
 figcaption:hover{
-    color: whitesmoke;
+    color: white;
 }
 
